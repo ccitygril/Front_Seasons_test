@@ -1,0 +1,779 @@
+@media only screen and (max-width:360px ) {
+    body{
+        background-color:black;
+         
+    color: #fff;
+       }
+
+    .logo{
+        
+position: absolute;
+width: 220px;
+height: 22px;
+left: 20px;
+top: 20px;
+       
+
+    }
+    
+   .container_ava{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 320px;
+height: 612px;
+flex: none;
+order: 0;
+flex-grow: 0;
+text-align: center;
+margin: auto;
+margin-top: 90px;
+}
+    
+   .image img {
+    width: 320px;
+height: 353px;
+    padding: 0px;
+    margin-left: 20px;
+  }
+  
+  .gora {
+    position: absolute;
+width: 60px;
+height: 19px;
+left: calc(50% - 60px/2 + 1px);
+top: 429px;
+  }
+
+  .red-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 16px 40px;
+    gap: 32px;
+    width: 320px;
+    height: 290px;
+    background: #F51B1B;
+    border-radius: 20px 20px 0px 0px;
+    flex: none;
+   
+    align-self: stretch;
+    flex-grow: 0;
+    
+  }
+
+  .ikon1 img,
+  .ikon2 img,
+  .ikon3 img,
+  .ikon4 img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+
+  }
+  
+  .ikon1 p,
+  .ikon2 p,
+  .ikon3 p,
+  .ikon4 p {
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 10px;
+    text-align: left;
+    width: 150px;
+    height: 20px;
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+
+  
+  .texstinred h1
+  {
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 0 ;
+    margin-left: 16px;
+    
+  }
+
+  .age p{
+ margin-top: 4px;
+    margin-left: 16px;
+    margin-bottom: 34px;
+    width: 108px;
+height: 20px;
+font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  
+
+  .container-texts {
+    width: 320px;
+    height: 240px;
+    
+    /* Text 2 mob */
+    
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    
+    letter-spacing: -0.01em;
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px;
+    margin-top: 120px;
+  }
+  
+
+  .container-texts p{
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+  }
+
+  .container-skils {
+
+
+width: 320px;
+height: 700px;
+margin-left: 20px;
+margin-top: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+    border:1px solid #FFFFFF;
+  }
+
+  .container-skils h3 {
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 16px;
+    
+  }
+
+  .container-skils h4 {
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: inline-block;
+    margin-left: 16px;
+    
+  }
+  
+
+  .container-skils p {
+    font-family: 'TT Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 16px;
+  }
+
+  .container-skils hr{
+    width: 90%;
+height: 0px;
+opacity: 0.4;
+border: 1px solid #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+  }
+  
+  .rama{
+    position: absolute;
+width: 60px;
+height: 19px;
+margin-top: -1.5px;
+margin-left: 36px;
+
+}
+}
+
+@media only screen and (min-width: 1440px ) {
+
+
+    body{
+        background-color:black;
+         
+    color: #fff;
+       }
+
+    .logo{
+        
+        position: absolute;
+        width: 220px;
+        height: 22px;
+        margin-left: 1159px;
+        margin-top: 0px;
+            } 
+
+
+            .container_ava {
+                position: absolute;
+width: 322px;
+height: 780px;
+left: 40px;
+top: 40px;  
+              }
+            
+              .image img {
+                width: 322px;
+                height: 355px;
+                padding: 0px;
+              }
+              
+                  
+                  .image {
+                    position: relative;
+                    margin-bottom: -15px;
+                    z-index: -1;
+                  }
+                  
+                  .image img {
+                    width: 325px;
+                    height: 355px;
+                    padding: 0px;
+                   
+                    
+                  }
+                  
+                  .gora {
+                    position: absolute;
+              width: 60px;
+              height: 19px;
+              left: calc(50% - 60px/2 - 0px);
+              top: 318px;
+              
+                  }
+                  
+                  .red-block{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    padding:  40px 24px;
+                    gap: 20px;
+                    width: 280px;
+                    height: 454px;
+                    background: #F51B1B;
+                    border-radius: 24px 24px 0px 0px;
+                    margin-top: -25px;
+                    text-align: left;
+                    flex: none;
+                    order: 1;
+                    align-self: stretch;
+                    flex-grow: 1;
+                    
+                  }
+              
+                  .ikon1 img,
+                  .ikon2 img,
+                  .ikon3 img,
+                  .ikon4 img {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                  }
+                  
+                  .ikon1 p,
+                  .ikon2 p,
+                  .ikon3 p,
+                  .ikon4 p,
+                  .texstinred p {
+                    display: inline-block;
+                    vertical-align: middle;
+                    color: #FFFFFF;
+                    margin: 10px;
+                    text-align: left;
+                    width: 150px;
+                    height: 24px;
+                    font-family: 'TT Commons';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                  }
+                  
+                  .ikon1, .ikon2, .ikon3, .ikon4 {
+                    margin: 20px;
+                  }
+              
+                  
+                  .texstinred h1
+                  {
+                    font-family: 'TT Commons';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 28px;
+                    letter-spacing: -0.02em;
+                    color: #FFFFFF;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin-top: 0 ;
+                    margin-right: 10px;
+                    margin: 20px;
+                  }
+                  
+                  .age p{
+                    margin-top: 4px;
+                    margin-bottom: 24px;
+                    margin-left: 20px;
+                  }
+          
+                  .container-texts {
+                    width: 690px;
+                     font-family: 'TT Commons';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    letter-spacing: -0.01em;
+                     color: #FFFFFF;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin-left: 380px;
+                    margin-top: 58px;
+                    margin-right: 393px;
+                  }
+                  
+                
+                  .container-texts p{
+                    font-family: 'TT Commons';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.01em;
+                    color: #FFFFFF;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    
+                  }
+                
+                  .container-skils {
+                
+                
+                width: 1008px;
+                height: 586px;
+                margin-left: 380px;
+                    margin-top: 58px;
+                    margin-right: 393px;
+                
+                /* Inside auto layout */
+                
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                    border:1px solid #FFFFFF;
+                  }
+                
+                  .container-skils h3 {
+                    font-family: 'TT Commons';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 100%;
+                    color: #FFFFFF;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin-left: 47px;
+                    margin-top: 47px;
+                    display: inline-block;
+    
+                    
+                  }
+                
+                  .container-skils h4 {
+                    font-family: 'TT Commons';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.01em;
+                    color: #FFFFFF;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    display: inline-block;
+                    margin-left: 150px;
+              
+                  }
+                  
+                
+                  .container-skils p {
+                    font-family: 'TT Commons';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.01em;
+                    color: #FFFFFF;
+                    opacity: 0.4;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin-left: 280px;
+                    width: 337px;
+                  }
+                
+                  .container-skils hr{
+                    width: 90%;
+                height: 0px;
+                opacity: 0.4;
+                border: 1px solid #FFFFFF;
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 0;
+                  }
+                  
+                  .rama{
+                    position: absolute;
+                width: 60px;
+                height: 19px;
+                margin-top: -1.5px;
+                margin-left: 26px;
+                
+                }
+          
+}
+
+@media (min-width: 361px) and (max-width: 1440px) {
+  *{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    color: #fff;
+    border: none;
+  }
+
+
+ body{
+  background-color:black;
+ }
+
+
+.container{
+  margin: 0 auto;
+}
+ 
+ .logo {
+  position: absolute;
+  width: 239.91px;
+  height: 24px;
+  right: 41.09px;
+  top: 26px;
+  
+}
+
+
+
+ .container_ava {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  position: absolute;
+width: 322px;
+height: 780px;
+
+
+}
+
+.container-texts {
+
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top:5%;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+
+.container-skils {
+ 
+  margin-right: 2%;
+  float: right;
+  width: 65%;
+  border:1px solid #FFFFFF;
+}
+
+.image img {
+  width: 322px;
+  height: 355px;
+  padding: 0px;
+}
+
+    
+    
+    .image {
+      position: relative;
+      margin-bottom: -15px;
+      z-index: -1;
+    }
+    
+    .image img {
+      width: 325px;
+      height: 355px;
+      padding: 0px;
+     
+      
+    }
+    
+    .gora {
+      position: absolute;
+width: 60px;
+height: 19px;
+left: calc(50% - 60px/2 - 0px);
+top: 318px;
+
+    }
+    
+    .red-block{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding:  40px 24px;
+      gap: 20px;
+      width: 322px;
+      height: 454px;
+      background: #F51B1B;
+      border-radius: 24px 24px 0px 0px;
+      margin-top: -25px;
+      text-align: left;
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 1;
+      
+    }
+
+    .ikon1 img,
+    .ikon2 img,
+    .ikon3 img,
+    .ikon4 img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    
+    .ikon1 p,
+    .ikon2 p,
+    .ikon3 p,
+    .ikon4 p,
+    .texstinred p {
+      display: inline-block;
+      vertical-align: middle;
+      color: #FFFFFF;
+      margin: 10px;
+      text-align: left;
+      width: 150px;
+      height: 24px;
+      font-family: 'TT Commons';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+    
+    .ikon1, .ikon2, .ikon3, .ikon4 {
+      margin: 20px;
+    }
+
+    
+    .texstinred h1
+    {
+      font-family: 'TT Commons';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-top: 0 ;
+      margin-right: 10px;
+      margin: 20px;
+    }
+    
+    .age p{
+      margin-top: 4px;
+      margin-bottom: 24px;
+      margin-left: 20px;
+    }
+
+    .container-texts p{
+      font-family: 'TT Commons';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-left: 5%;
+    }
+
+    .container-skils h3 {
+      font-family: 'TT Commons';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-left: 5%;
+      display: inline-block;
+    }
+ 
+    .dop{
+      margin-left: 30%;
+      margin-top: 0;
+    }
+
+    .container-skils h4 {
+      font-family: 'TT Commons';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      display: inline-block;
+      margin-left: 15%;
+      
+    }
+    
+
+    .container-skils p {
+      font-family: 'TT Commons';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #FFFFFF;
+      opacity: 0.4;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-left: 30%;
+    }
+
+    .container-skils hr{
+      width: 90%;
+height: 0px;
+opacity: 0.4;
+border: 1px solid #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+    }
+    
+
+    .rama{
+      position: absolute;
+width: 60px;
+height: 19px;
+left: 35%;
+top: 50%;
+
+    }
+    
+}
