@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pomodoro timer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="modes">
+        <h2 id="work" class="label">Work</h2>
+        <h2  id="break" class="label">break</h2>
+        <h2 id="cycles" class="label">cycles</h2>
+
+        <div id="work-timer" class="timer">
+            <p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+        </div>
+
+            <div id="break-timer" class="timer">
+                <p id="b_minutes">05</p><p class="semicolon">:</p><p id="b_seconds">00</p>
+            </div>
+
+            <div id="cycles-timer" class="timer">
+            <p id="counter" >0</p>
+        </div>
+
+            <div class="buten">
+            <button id="start" class="btn">Start</button>
+            <button id="stop" class="btn">Pause</button>
+            <button id="reset" class="btn">Reset</button>
+            </div>
+
+        </div>
+   
+        <div class="to-do">
+            <h2>Добавить задачу для выполнения</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Введите название задачи">
+                <button onclick="addTask()">Добавить</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
